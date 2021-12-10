@@ -1,0 +1,57 @@
+body {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('hh.jpg') no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+} 
+
+.book {
+    width: 600px;
+    height: 700px;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: courgette;
+}
+
+input[type=text]{
+    color: white;
+}
+
+.book input[type=text],select{
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width:70%;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+}
+select{
+    background-color: grey;
+}
+.btn{
+    text-align: center;
+    color: white;
+}
