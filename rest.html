@@ -1,296 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2;400,700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2;400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/332a215f17.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!--=====Navbar=======-->
-    <div id="menu" class="menu">
-        <id id="menu-bar" onclick="onclickmenu()">
-            <div id="bar1" class="bar"></div>
-            <div id="bar2" class="bar"></div>
-            <div id="bar3" class="bar"></div>
-            <ul id="nav" class="nav">
-                    <li><a href="rest.html">Home</a></li>
-                    <li><a href="about/about.html">About</a></li>
-                    <li><a href="menu.html/menu.html">Menu</a></li>
-                    <li><a href="contact/contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
     <!--end of nav bar=============-->
-    <!--header====================-->
-    <header class="header">
-        <div class="hero">
-            <h1 class="title">Food for health</h1>
-            <a href="book_a_table/book.html" class="hero-button pulsate"> Book a table</a>
+    <!--header===================-->
+    <div class="navbar">
+      <div id="menu" class="menu">
+        <div id="menu-bar" onclick="onclickmenu()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+          <ul id="nav" class="nav">
+            <li><a href="rest.html">Home</a></li>
+            <li><a href="about/about.html">About</a></li>
+            <li><a href="menu.html/menu.html">Menu</a></li>
+            <li><a href="contact/contact.html">Contact</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="menus">
+        <div>f1</div>
+        <div>f2</div>
+        <div>f3</div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="hero">
+        <h1 class="title">Coffee</h1>
+        <a href="#food" class="hero-button pulsate"> Our Products</a>
+      </div>
     </header>
     <!--end of header==================-->
     <!--about us===================-->
-    <section id="about ">
-        <div>
-            <h2 class="title-text"> About us</h2>
-        </div>
-        <div class="about-center">
-            <!---start of the article-->
-            <article class="about">
-                <div class="about-icon">
-                    <i class="fas fa-mug-hot"></i></div>
-                    <div class="about-text">
-                        <a href="drinks/drinks.html">
-                        <h2 class="about-subtitle">Drinks</h2></a>
-                        <p class="about-info">Shake, smoothie, wine, whiskey,
-                            bubble tea, coffe, tea
-                        </p>
-                    </div>
-            </article>
-            <!---end of the article-->         
-            <!---start of the article-->
-            <article class="about">
-                <div class="about-icon">
-                    <i class="fas fa-utensils"></i></div>
-                    <div class="about-text">
-                        <a href="menu.html/menu.html">
-                        <h2 class="about-subtitle">Menu</h2></a>
-                        <p class="about-info">Нэрийг хоол бүх төрлийн хоолны цэс</p>
-                            
-                    </div>
-            </article>
-            <!---end of the article-->
-                    <!---start of the article-->
-                    <article class="about">
-                        <div class="about-icon">
-                            <i class="fas fa-mortar-pestle"></i></div>
-                            <div class="about-text">
-                                <a href="healthy food/healthy.html">
-                                <h2 class="about-subtitle">Healthy food</h2></a>
-                                <p class="about-info">Кето фитнесс(уураг баялаг цэс)</p>
-                                    
-                            </div>
-                    </article>
-                    <!---end of the article-->
-                    <!---start of the article-->
-            <article class="about">
-                <div class="about-icon">
-                    <i class="fas fa-drumstick-bite"></i></div>
-                    <div class="about-text">
-                        <a href="white_meat/white_meat.html">
-                        <h2 class="about-subtitle">White meat</h2></a>
-                        <p class="about-info">Бүх төрлийн цагаан хоол</p>
-                            
-                    </div>
-            </article>
-            <!---end of the article-->         
-            <!---start of the article-->
-            <article class="about">
-                <div class="about-icon">
-                    <i class="fas fa-fish"></i></div>
-                    <div class="about-text">
-                        <a href="seafood/seafood.html">
-                        <h2 class="about-subtitle">Sea food</h2></a>
-                        <p class="about-info">Сүши,хавч,сам хорхой,наймаалж</p>
-                    </div>
-            </article>
-            <!---end of the article-->
-            <!---start of the article-->
-            <article class="about">
-            <div class="about-icon">
-                <i class="fas fa-pepper-hot"></i></div>
-                <div class="about-text">
-                    <a href="spicy/spicy.html">
-                    <h2 class="about-subtitle">Hot & spicy</h2></a>
-                    <p class="about-info">Spicy food (Уламжлалт Солонгос хоолны амт)</p>
-                </div>
-        </article>
-        <!---end of the article-->
-        </div>
-    </section>
-    <!--and of about us===================-->
-    <!--Menu section==============-->
-    <section class="menu" id="menu">
-        <article class="menu-image"></article>
-        <article class="menu-text">
-            <div class="menu-text-center">
-                <h1> Our menu</h1>
-                    <a href="menu.html/menu.html">Explore</a>
-            </div>
-        </article>
-    </section>
-    <!--End of  menu section========-->
-    <!--Social icon============-->
-    <section id="social-icons">
-        <a href="https://en-gb.facebook.com/"><i class="fab fa-facebook facebook"></i></a>
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram instagram"></i></a>
-        <a href="https://twitter.com/"><i class="fab fa-twitter twitter"></i></a>
-        <a href="https://accounts.google.com/"><i class="fab fa-google-plus plus"></i></a>
-    </section>
-    <!--End of social icon============-->
-    <!--===========Numbers==============-->
-    <section id="numbers">
-        <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <a href="menu.html/menu.html">
-            <p>50</p></a>
-            <h3>Meat dishes</h3>
-        </article>
-        <article class="number">
-            <i class="fas fa-cheese"></i>
-            <a href="cheese/cheese.html">
-            <p>35</p></a>
-            <h3>Cheese dishes</h3>
-        </article>
-        <article class="number">
-            <i class="fas fa-pizza-slice"></i>
-            <a href="pizz/pizz.html">
-            <p>25</p></a>
-            <h3>Pizza</h3>
-        </article>
-        <article class="number">
-            <i class="fas fa-ice-cream"></i>
-            <a href="dessert/dessert.html">
-            <p>40</p></a>
-            <h3>Desserts</h3>
-        </article>
-        <article class="number">
-            <i class="fas fa-fish"></i>
-            <a href="seafood/seafood.html">
-            <p>15</p></a>
-            <h3>sea dishes</h3>
-        </article>
-        <article class="number">
-            <i class="fas fa-mug-hot"></i>
-            <a href="drinks/drinks.html">
-            <p>25</p></a>
-            <h3>drinks</h3>
-        </article>
-    </section>
-    <!--=========End of numbers============-->
     <!--=========Card section================-->
     <section id="food">
-        <div>
-            <h2 class="title-text">Food fusion</h2>
-        </div>
-        <div class="food-container">
-            <!---article-->
-            <article class="food-card">
-                <img src="https://www.bhg.com.au/media/6757/bigbreakfast-02.jpg" class="food-img" alt="">
-                <div class="img-text">
-                    <h1>Breakfast</h1>
-                </div>
-                <div class="img-footer">
-                    <div class="footer-icon">
-                        <i class="fas fa-MNT-sign">15000</i>
-                    </div>
-                    <div class="footer-btn">
-                        <button type="button" class="food-btn">Захиалах</button>
-                    </div>
-                </div>
-            </article>
-            <!---end of article-->
-               <!---article-->
-               <article class="food-card">
-                <img src="https://3617ac39556d1b3254fb-33fb0d84d7d76003f2822ca473a88e92.ssl.cf1.rackcdn.com/responsive/16:9/ee19c804fe18d8c787e0-33fb0d84d7d76003f2822ca473a88e92.r42.cf1.rackcdn.com/restaurants-irs/235576/set-lunch/BBC-New-Set-Lunch--1-of-40-.jpg" class="food-img" alt="">
-                <div class="img-text">
-                    <h1>Lunch set</h1>
-                </div>
-                <div class="img-footer">
-                    <div class="footer-icon">
-                        <i class="fas fa-MNT-sign">25000</i>
-                    </div>
-                    <div class="footer-btn">
-                        <button type="button" class="food-btn">Захиалах</button>
-                    </div>
-                </div>
-            </article>
-            <!---end of article-->
-               <!---article-->
-               <article class="food-card">
-                <img src="https://www.pillsbury.com/-/media/pb/images/recipes-hero/dinner/taco-crescent-ring_hero.ashx" class="food-img" alt="">
-                <div class="img-text">
-                    <h1>Dinner</h1>
-                </div>
-                <div class="img-footer">
-                    <div class="footer-icon">
-                        <i class="fas fa-MNT-sign">45000</i>
-                    </div>
-                    <div class="footer-btn">
-                        <button type="button" class="food-btn">Захиалах</button>
-                    </div>
-                </div>
-            </article>
-            <!---end of article-->
-        </div>
-    </section>
-    <!--==========End of section================-->
-<!--=========Card section================-->
-<section id="food">
-    <div>DESKTOP-GH4SJ1Q MINGW64 ~/Documents/biy daaltud (IO)/restaurant (main)
-$
-
-        <h2 class="title-text">Main cuisine</h2>
-    </div>
-    <div class="food-container">
+      <div>
+        <h2 id="change" class="title-text">Best products</h2>
+      </div>
+      <div class="food-container">
         <!---article-->
         <article class="food-card">
-            <img src="fried_chicken.jpg" class="food-img" alt="">
+          <img
+            src="https://www.bhg.com.au/media/6757/bigbreakfast-02.jpg"
+            class="food-img"
+            alt=""
+          />
+          <div class="img-text">
+            <h1>Breakfast</h1>
+          </div>
+          <div class="img-footer">
+            <div class="footer-icon">
+              <i class="fas fa-MNT-sign">15000</i>
+            </div>
+            <div class="footer-btn">
+              <button type="button" class="food-btn">Захиалах</button>
+            </div>
+          </div>
         </article>
         <!---end of article-->
-              <!---article-->
-              <article class="food-card">
-                <img src="https://i2.wp.com/thechickwhoeats.com/wp-content/uploads/2016/06/tteokbokki-17.jpg" class="food-img" alt="">
-            </article>
-            <!---end of article-->
-                   <!---article-->
+        <!---article-->
         <article class="food-card">
-            <img src="family_set.jpg" class="food-img" alt="">
+          <img
+            src="https://3617ac39556d1b3254fb-33fb0d84d7d76003f2822ca473a88e92.ssl.cf1.rackcdn.com/responsive/16:9/ee19c804fe18d8c787e0-33fb0d84d7d76003f2822ca473a88e92.r42.cf1.rackcdn.com/restaurants-irs/235576/set-lunch/BBC-New-Set-Lunch--1-of-40-.jpg"
+            class="food-img"
+            alt=""
+          />
+          <div class="img-text">
+            <h1>Lunch set</h1>
+          </div>
+          <div class="img-footer">
+            <div class="footer-icon">
+              <i class="fas fa-MNT-sign">25000</i>
+            </div>
+            <div class="footer-btn">
+              <button type="button" class="food-btn">Захиалах</button>
+            </div>
+          </div>
         </article>
         <!---end of article-->
-               <!---article-->
-               <article class="food-card">
-                <img src="Pizza.jpg" class="food-img" alt="">
-            </article>
-            <!---end of article-->
-                   <!---article-->
+        <!---article-->
         <article class="food-card">
-            <img src="bbq.jpg" class="food-img" alt="">
+          <img
+            src="https://www.pillsbury.com/-/media/pb/images/recipes-hero/dinner/taco-crescent-ring_hero.ashx"
+            class="food-img"
+            alt=""
+          />
+          <div class="img-text">
+            <h1>Dinner</h1>
+          </div>
+          <div class="img-footer">
+            <div class="footer-icon">
+              <i class="fas fa-MNT-sign">45000</i>
+            </div>
+            <div class="footer-btn">
+              <button type="button" class="food-btn">Захиалах</button>
+            </div>
+          </div>
         </article>
         <!---end of article-->
-               <!---article-->
-               <article class="food-card">
-                <img src="ramen.jpg" class="food-img" alt="">
-            </article>
-            <!---end of article-->
-                   <!---article-->
-        <article class="food-card">
-            <img src="soup.jpg" class="food-img" alt="">
-        </article>
-        <!---end of article-->
-               <!---article-->
-               <article class="food-card">
-                <img src="hotpot.jpg" class="food-img" alt="">
-            </article>
-            <!---end of article-->
-                   <!---article-->
-        <article class="food-card">
-            <img src="drinks.jpg" class="food-img" alt="">
-        </article>
-        <!---end of article-->
-     
-    </div>
-</section>
-<!--==========End of section================-->
+      </div>
+    </section>
+    <!--==========End of section================-->
 
+    <section id="about ">
+      <div>
+        <h2 class="title-text">About us</h2>
+      </div>
+      <div class="about-center">
+        <!---start of the article-->
+        <div class="contents">
+          <article class="about">
+            <div class="about-icon">
+              <i class="fas fa-mug-hot"></i>
+            </div>
+            <div class="about-text">
+              <a href="drinks/drinks.html">
+                <h2 class="about-subtitle">Drinks</h2></a
+              >
+              <p class="about-info">
+                Shake, smoothie, wine, whiskey, bubble tea, coffe, tea
+              </p>
+            </div>
+          </article>
+          <!---end of the article-->
+          <!---start of the article-->
+          <article class="about">
+            <div class="about-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <div class="about-text">
+              <a href="menu.html/menu.html">
+                <h2 class="about-subtitle">Menu</h2></a
+              >
+              <p class="about-info">Нэрийг хоол бүх төрлийн хоолны цэс</p>
+            </div>
+          </article>
+          <!---end of the article-->
+          <!---start of the article-->
+        </div>
+        <div class="contents">
+          <article class="about">
+            <div class="about-icon">
+              <i class="fas fa-mortar-pestle"></i>
+            </div>
+            <div class="about-text">
+              <a href="healthy food/healthy.html">
+                <h2 class="about-subtitle">Healthy food</h2></a
+              >
+              <p class="about-info">Кето фитнесс(уураг баялаг цэс)</p>
+            </div>
+          </article>
+          <!---end of the article-->
+          <!---start of the article-->
+          <article class="about">
+            <div class="about-icon">
+              <i class="fas fa-drumstick-bite"></i>
+            </div>
+            <div class="about-text">
+              <a href="white_meat/white_meat.html">
+                <h2 class="about-subtitle">White meat</h2></a
+              >
+              <p class="about-info">Бүх төрлийн цагаан хоол</p>
+            </div>
+          </article>
+        </div>
+        <!---end of the article-->
+        <!---start of the article-->
 
-
-
-
-<script src="onclickmenu.js"></script>
-</body>
+        <!---end of the article-->
+      </div>
+    </section>
+    <!--and of about us===================-->
+    <section id="social-icons">
+      <a href="https://en-gb.facebook.com/"
+        ><i class="fab fa-facebook facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/"
+        ><i class="fab fa-instagram instagram"></i
+      ></a>
+      <a href="https://twitter.com/"><i class="fab fa-twitter twitter"></i></a>
+      <a href="https://accounts.google.com/"
+        ><i class="fab fa-google-plus plus"></i
+      ></a>
+    </section>
+    <script src="onclickmenu.js"></script>
+  </body>
 </html>
